@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import data from './data.js';
 import Posts from './Posts.js';
 import Post from './Post.js';
@@ -18,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src='https://image.flaticon.com/icons/png/512/2983/2983803.png' className="App-logo" alt="logo" />
           <h2 className="App-title">My Posts</h2>
         </header>
         <section>
